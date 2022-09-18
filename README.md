@@ -4,7 +4,8 @@ It is a backend API project that has been built on Node.js , Express.js , MongoD
 It provides routes for [ /dishes 
                          /users 
                          /promotions
-                         /leaders  ]  endpoints.
+                         /leaders 
+                         /favourites ]  endpoints.
 
 The authentication is implemnted by using "passport.js" , "JWT" for http server and for  Https it is  implemented using OpenSSL self signed certificate {cert.csr}.
 It supports cross origin resourse sharing ("CORS") for multiple port access  such as http://localhost:3000 , https://localhost:3443 etc.
